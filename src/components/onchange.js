@@ -2,6 +2,7 @@
 import React from 'react'
 import {useState} from 'react'
 
+
 export default function Onchange(){
 
     let [country,Setcountry] = useState('india')
@@ -28,9 +29,9 @@ export default function Onchange(){
         setgander(value)
     }
   return (
-    <div className='App'>
-        <h1>{country}</h1>
-        <select onChange={eventhandel}>
+    <div>
+        <h1 >{country}</h1>
+        <select onChange={eventhandel} >
             <option value={""}>india</option>
             <option value={"japan"}>japan</option>
             <option value={"america"}>america</option>
